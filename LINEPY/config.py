@@ -5,7 +5,7 @@ import re
 class Config(object):
     LINE_HOST_DOMAIN            = 'https://gd2.line.naver.jp'
     LINE_OBS_DOMAIN             = 'https://obs-sg.line-apps.com'
-    LINE_TIMELINE_API           = 'https://gd2.line.naver.jp/mh/api'
+    LINE_TIMELINE_API           = 'https://boteater.ai/api'
     LINE_TIMELINE_MH            = 'https://gd2.line.naver.jp/mh'
 
     LINE_LOGIN_QUERY_PATH       = '/api/v4p/rs'
@@ -29,7 +29,7 @@ class Config(object):
     }
 
     APP_TYPE    = ApplicationType._VALUES_TO_NAMES[112]
-    APP_VER     = '5.9.0'
+    APP_VER     = '2.1.5'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'BOTTROX BOT'
     SYSTEM_VER  = '11.2.5'
