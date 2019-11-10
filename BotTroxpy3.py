@@ -1,5 +1,5 @@
-import LINEPY
-from LINEPY import *
+import linepy.zip
+from linepy.zip import *
 from akad.ttypes import *
 from thrift.unverting import *
 from thrift.TMultiplexedProcessor import *
